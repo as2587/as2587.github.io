@@ -3,4 +3,6 @@ layout: default
 title: Home
 ---
 
-Site still in works -- please come back later. 
+{% assign page = site.posts.first %}
+{% assign content = page.content %}
+{% include post.html %}
