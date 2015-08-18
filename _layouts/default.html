@@ -3,6 +3,9 @@
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	  {% if page.url == "/404.html" %}
+	          <meta http-equiv="refresh" content="5; url=/">
+	  {% endif %}
       <title>Flex - {{ page.title }}</title>
       <meta name="viewport" content="width=device-width">
 
@@ -24,25 +27,41 @@
       <div class="sidebar" id="sidebar">
         <div class="header">
           <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
-          <span class="tagline">A responsive Jekyll theme</span>
+          <span class="tagline">Abhishek S.</span>
         </div>
         <div class="posts">
+			
+			
           <ul class="posts-list">
-            {% for post in site.posts %}
               <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
+                <a class="post-title" href="/about/">
+				  About
                 </a>
               </li>
-            {% endfor %}
+              <li class="post-link">
+                <a class="post-title" href="/projects/">
+				  Projects
+                </a>
+              </li>
+              <li class="post-link">
+                <a class="post-title" href="/film/">
+				  Film
+                </a>
+              </li>
+              <li class="post-link">
+                <a class="post-title" href="/blog/">
+				  Blog
+                </a>
+              </li>
           </ul>
+		  
+		  
         </div>
         <div class="footer">
           <span id="footer-links">
-            <a href="" class="footer-link">About</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">GitHub</a>
+            <a href="https://www.linkedin.com/profile/preview?vpa=cxn1&locale=en_US" class="footer-link">LinkedIn</a> <span class="separator">&bull;</span>
+            <a href="https://twitter.com/asriraman" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
+            <a href="https://github.com/as2587" class="footer-link">GitHub</a>
           </span>
         </div>
       </div>
