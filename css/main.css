@@ -207,11 +207,30 @@ a:hover {
 }
 
 .post-film{
-    line-height: 54px;
-    max-width: 725px;
     clear: both;
-	text-align:center;
+	text-align:left;
+    max-width: 825px;
+	
 	-moz-border-radiusvertical-align: text-top;
+}
+
+
+table {
+    border-collapse: collapse;
+	width:100%;
+}
+
+td {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.film-info{
+    clear: both;
+	text-align:left;
+    line-height: 24px;
+    padding-left: 25px;
+	vertical-align: text-top;	
 }
 /*****************************************************************************/
 /*
