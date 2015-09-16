@@ -22,7 +22,7 @@ I majored in Mechanical Engineering with a minor in Computer Science from Cornel
 
 
 <br>
-Drumming and filmmaking have always been big hobbies of mine. I was privileged to be a part of [Yamatai](http://yamatai-taiko.com/), Cornell's one and only Taiko Drumming group. Though I'm not working on any videos at the moment, but am always open to taking new projects. 
+Drumming and filmmaking have always been big hobbies of mine. I was privileged to be a part of [Yamatai](http://yamatai-taiko.com/), Cornell's one and only Taiko Drumming group. Though I'm not working on any videos at the moment, I am always open to taking new projects. 
 
 
 <br>
